@@ -1,0 +1,42 @@
+.services-col{
+    background-color: rgb(192, 186, 176);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color:  white !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.services-col{
+    align-items: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+.img {
+    padding: 15px 0;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+}
+.img {
+    padding: 5px;
+    display: inline-block;
+}
+.img:hover ul{
+opacity: 1;
+}
+.img-box ul, .img-box ul li{
+    transition: 0.5s;
+}
+h1{
+    color: rgb(15, 39, 148);
+}
+h3{
+color: rgb(238, 18, 18);
+}
+h2{
+color: rgb(40, 31, 170);
+}

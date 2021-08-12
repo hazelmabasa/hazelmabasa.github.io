@@ -1,0 +1,49 @@
+.service-col{
+    background-image: url(image.ig/modern-agriculture-technology.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color:  white !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.service-col{
+    align-items: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+.img ul {
+    padding: 15px 0;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+}
+.img ul li{
+    padding: 5px;
+    display: inline-block;
+}
+.img:hover ul{
+opacity: 1;
+}
+.img-box ul, .img-box ul li{
+    transition: 0.5s;
+}
+h1{
+    color: rgb(26, 27, 26);
+    align-items: center;
+    background-color: rgb(0, 255, 115);
+}
+h3{
+color: rgb(238, 18, 18);
+}
+h2{
+color: rgb(9, 8, 19);
+background-color: rgb(0, 255, 115);
+}
+.container{
+    color: white;
+    align-items: center;
+}
